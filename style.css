@@ -1,0 +1,145 @@
+
+      body {
+        background-color: #EEEEEE;
+      }
+
+      ol {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      #task-value {
+        color: black;
+        padding: 5px 15px;
+        border: 2px solid white;
+      }
+
+      #add-task {
+        border: 2px solid #03A9F4;
+        background-color: #03A9F4;
+        padding: 5px 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+		 .task {
+				padding: 20px;
+        border-bottom: 2px solid #dedede;
+			}
+
+      .task:last-child {
+        border-bottom: 0;
+      }
+
+      .done {
+        text-decoration: line-through;
+      }
+
+      .panel {
+        border-radius: 0;
+        box-shadow: none;
+        border: 0;
+      }
+
+      .panel-default>.panel-heading {
+        border: 0;
+        border-radius: 0;
+        background-color: #4DD0E1;
+        color: white;
+        box-shadow: none;
+      }
+
+      .panel-body {
+        border-radius: 0;
+        border: 0;
+        background-color: white;
+        padding: 0;
+        min-height: 61px;
+      }
+
+      .panel-title {
+        font-size: 25px;
+        color: inherit;
+        margin-bottom: 0;
+        padding-top: 4px;
+        font-weight: 700;
+        margin-right: 15px;
+      }
+
+      input[type=checkbox] {
+        margin-right: 20px;
+        height: 2rem;
+        margin-top: 0;
+      }
+
+      .remove-btn {
+        position: relative;
+        top: -10px;
+        border-radius: 50%;
+        height: 4rem;
+        width: 4rem;
+        background-color: #FF4081;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+      }
+
+      .remove-btn:hover, .remove-btn:focus {
+        color: white;
+        background-color: #bb305f;
+      }
+
+      .remove-btn i {
+        position: relative;
+        top: 11px;
+        left: 12px;
+        font-size: 20px;
+      }
+
+      .done-btn {
+        position: relative;
+        top: 0;
+        margin: 0 1rem 0 0;
+        cursor: pointer;
+      }
+      .done-btn:before {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        content: "";
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        width: 2rem;
+        height: 2rem;
+        border: 2px solid #dedede;
+      }
+      .done-btn:checked:before {
+        -webkit-transform: rotate(-55deg);
+        -moz-transform: rotate(-55deg);
+        -ms-transform: rotate(-55deg);
+        -o-transform: rotate(-55deg);
+        transform: rotate(-55deg);
+        height: 1rem;
+        border-color: #009688;
+        border-top-style: none;
+        border-right-style: none;
+        top: 3px;
+      }
+      .done-btn:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 2rem;
+        height: 2rem;
+        background: #fff;
+        cursor: pointer;
+      }
+
+      .list-wrapper {
+        margin-top: 80px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      }

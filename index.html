@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TO-DO list</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Main style -->
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+      <div class="container">
+        <div class="list-wrapper">
+          <div class="panel panel-default">
+    			  <div class="panel-heading">
+    			    <h3 class="panel-title pull-left">TO-DO list</h3>
+    					<input class="pull-left" id="task-value" type="text" placeholder="Task name">
+    					<button class="pull-left" id="add-task" type="button">Add task</button>
+              <div class="clearfix"></div>
+    			  </div>
+    			  <div class="panel-body">
+    			    <ol id="task-list">
+    			    </ol>
+    			  </div>
+    			</div>
+        </div>
+  		</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+
+  </body>
+</html>
